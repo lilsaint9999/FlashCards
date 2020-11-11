@@ -7,7 +7,9 @@ public class FlashCards
 {
     public static void main(String[] args)
     {
+        System.out.println("yes we`ve made some changes here");
         Scanner scanner = new Scanner(System.in);
+        // this is the small change , so I can try push the code back to repos in github
         boolean exit = false;
         Map<String, String> map = new HashMap<>();
         Map<String, Integer> errorMap = new HashMap<>();
