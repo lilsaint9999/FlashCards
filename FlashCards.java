@@ -10,6 +10,7 @@ public class FlashCards
         System.out.println("yes we`ve made some changes here");
         Scanner scanner = new Scanner(System.in);
         // this is the small change , so I can try push the code back to repos in github
+        // trying to commit a change and then push it to original repository
         boolean exit = false;
         Map<String, String> map = new HashMap<>();
         Map<String, Integer> errorMap = new HashMap<>();
